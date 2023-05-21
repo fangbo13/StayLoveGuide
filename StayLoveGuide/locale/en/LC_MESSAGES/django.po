@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-21 22:11+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\StayLoveGuide\settings.py:119 .\static\templates\navbar.html:48
+msgid "English"
+msgstr "English"
+
+#: .\StayLoveGuide\settings.py:120
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#: .\home\templates\home\home.html:17
+msgid "留爱攻略"
+msgstr "Ireland"
+
+#: .\static\templates\navbar.html:23
+msgid "菜单项1"
+msgstr "Menu Item 1"
+
+#: .\static\templates\navbar.html:24
+msgid "菜单项2"
+msgstr "Menu Item 2"
+
+#: .\static\templates\navbar.html:25
+msgid "菜单项3"
+msgstr "Menu Item 3"
+
+#: .\static\templates\navbar.html:31
+msgid "首页"
+msgstr "Home"
+
+#: .\static\templates\navbar.html:34
+msgid "入学指南"
+msgstr "Admission Guide"
+
+#: .\static\templates\navbar.html:37
+msgid "生活指南"
+msgstr "Life Guide"
+
+#: .\static\templates\navbar.html:40
+msgid "工作指南"
+msgstr "Work Guide"
+
+#: .\static\templates\navbar.html:43
+msgid "社区活动"
+msgstr "Community Activities"

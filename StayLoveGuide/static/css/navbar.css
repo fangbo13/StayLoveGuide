@@ -1,0 +1,54 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+.navbar-nav {
+    margin-right: auto;
+}
+
+.form-select {
+    width: auto;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+}
+
+.input-group .btn-primary {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -1px;
+}

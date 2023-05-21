@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/home/home.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="home-container">
+
+        <aside class="left-container">
+            <!-- Content for left container -->
+        </aside>
+
+        <main class="right-container">
+            {% if home.home_bg.url %}
+                <img src="{{ home.home_bg.url }}" alt="Description of the image" class="overlay-image">
+            {% endif %}
+        </main>
+
+        {% if home.home_title %}
+            <h1 class="home-title">{{ home.home_title }}</h1>
+        {% else %}
+            <h1 class="home-title">Default title</h1>
+        {% endif %}
+
+    </div>
+{% endblock %}

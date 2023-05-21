@@ -1,0 +1,47 @@
+        {% load static %}
+        {% load i18n %}
+        
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+            <title>StayLove Guide</title>
+            <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+            <link rel="stylesheet" href="{% static 'fontawesome/css/fontawesome.min.css' %}">
+            <link rel="stylesheet" href="{% static 'fontawesome/css/all.min.css' %}">
+            <link rel="stylesheet" href="{% static 'animate/animate.min.css' %}" />
+            <link rel="stylesheet" href="{% static 'aos-master/dist/aos.css' %}" />
+            {% block css %}
+            {% endblock %}
+        </head>
+
+
+        <body>
+            {% include 'navbar.html' %}
+        
+                {% block content %}
+                {% endblock %}  
+            
+
+
+
+
+
+
+
+
+            <script src="{% static 'jquery/jquery-3.6.4.min.js' %}"></script>
+            <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+            <script src="{% static 'aos-master/dist/aos.js' %}"></script>
+            {% block js %}
+            <script>
+                AOS.init();
+            </script>
+            {% endblock %}
+            
+
+        </body>
+        </html>
