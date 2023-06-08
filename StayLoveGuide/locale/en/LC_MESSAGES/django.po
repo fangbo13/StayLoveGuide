@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-21 22:11+0800\n"
+"POT-Creation-Date: 2023-05-23 00:56+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,29 +18,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\StayLoveGuide\settings.py:119 .\static\templates\navbar.html:48
+#: .\StayLoveGuide\settings.py:120
 msgid "English"
 msgstr "English"
 
-#: .\StayLoveGuide\settings.py:120
+#: .\StayLoveGuide\settings.py:121
 msgid "Simplified Chinese"
 msgstr "简体中文"
 
-#: .\home\templates\home\home.html:17
-msgid "留爱攻略"
-msgstr "Ireland"
+#: .\home\models.py:5
+msgid "首页标题"
+msgstr ""
+
+#: .\home\models.py:6
+msgid "首页图片"
+msgstr ""
 
 #: .\static\templates\navbar.html:23
-msgid "菜单项1"
-msgstr "Menu Item 1"
+msgid "论坛"
+msgstr "Forum"
 
 #: .\static\templates\navbar.html:24
-msgid "菜单项2"
-msgstr "Menu Item 2"
+msgid "聊天室"
+msgstr "Chat Room"
 
 #: .\static\templates\navbar.html:25
-msgid "菜单项3"
-msgstr "Menu Item 3"
+msgid "二手市场"
+msgstr "Second-hand Market"
 
 #: .\static\templates\navbar.html:31
 msgid "首页"
@@ -61,3 +65,6 @@ msgstr "Work Guide"
 #: .\static\templates\navbar.html:43
 msgid "社区活动"
 msgstr "Community Activities"
+
+#~ msgid "留爱攻略"
+#~ msgstr "Ireland"

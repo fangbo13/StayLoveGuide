@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/Users/register.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="register-container">
+        <h2 class="register-heading">Register</h2>
+        <form method="post" class="register-form">
+            {% csrf_token %}
+            {% for field in form %}
+                <div class="form-field">
+                    <input type="{{ field.field.widget.input_type }}" id="{{ field.id_for_label }}" name="{{ field.html_name }}" placeholder="{{ field.label }}" required>
+                </div>
+            {% endfor %}
+            <button type="submit" class="register-button">Register</button>
+        </form>
+        <p class="register-login">Already have an account? <a href="{% url 'login' %}">Login</a></p>
+    </div>
+{% endblock %}

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'modeltranslation',
     'home',
+    'Users',
 ]
 
 MIDDLEWARE = [
@@ -82,10 +83,18 @@ WSGI_APPLICATION = 'StayLoveGuide.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'Staylove',
+        'USER': 'Haibo',
+        'PASSWORD': 'Fbo200527.',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
+
+
+
+AUTH_USER_MODEL = 'Users.CustomUser'
 
 
 # Password validation
